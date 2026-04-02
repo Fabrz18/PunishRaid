@@ -1,0 +1,25 @@
+name: PunishRaid
+version: '1.0'
+
+main: com.bitraid.punishRaid.PunishRaid
+api-version: '1.21.11'
+load: POSTWORLD
+commands:
+  ban:
+    description: Banea permanentemente a un jugador.
+    usage: /ban <nick> <motivo>
+  tempban:
+    description: Banea temporalmente a un jugador.
+    usage: /tempban <nick> <tiempo> <motivo>
+  mute:
+    description: Mutea permanentemente a un jugador.
+    usage: /mute <nick> <motivo>
+  unban:
+    description: Desbanea a un jugador.
+    usage: /unban <nick>
+  unmute:
+    description: Desmutea a un jugador.
+    usage: /unmute <nick>
+  history:
+    description: Muestra el historial de sanciones de un jugador.
+    usage: /history <nick>
